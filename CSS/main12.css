@@ -1,0 +1,11 @@
+[id*="bar"] {
+    height: 60px;
+    /*background-image: url(../IMAGES/Superstition3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+[id*="barp"] {
+    clear: left;
+}
