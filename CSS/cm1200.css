@@ -1,0 +1,28 @@
+#hdr {
+    height: 240px;
+}
+
+#box_B {
+    width: 50%;
+    float: left;
+    margin-top: 110px;
+}
+
+#box_C {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 240px;
+}
+
+#artc {
+    height: 320px;
+}
+
+#box_E {
+    margin-top: -60px;
+}
+
+#ftr {
+    margin-top: -30px;
+}

@@ -1,0 +1,29 @@
+#box_H {
+    width: 51.666%;
+}
+
+#box_I {
+    width: 30%;
+}
+
+.horiz {
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.icons {
+    width: 35px;
+    margin-top: 35px;
+    margin-right: 5px;
+}
+
+.scaled {
+    /*width: 100%;*/
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#hdr_link1 {
+    margin-left: -5px;
+}

@@ -1,11 +1,3 @@
-[id*="bar"] {
-    height: 60px;
-    /*background-image: url(../IMAGES/Superstition3.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;*/
-}
-
 #hdr {
     height: 240px;
 }
@@ -23,6 +15,14 @@
     line-height: 0.9em;
     margin-top: 10px;
     margin-bottom: 0;
+}
+
+#hdr_link1 {
+    margin-left: -30px;
+}
+
+#hdr_link2 {
+    margin-left: 30px;
 }
 
 .disc {
@@ -79,12 +79,31 @@ a.non_std2 {
 }
 
 #box_H {
+    background: linear-gradient(to right top, #ffffff, #8e8888);
     z-index: 9;
+    width: 56.666%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#box_I {
+    background: linear-gradient(to right bottom, #8e8888, #ffffff);
+    z-index: 9;
+    width: 35%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#box_J {
+    height: 40px;
+    float: left;
+    clear: left;
+    margin-top: -32px;
 }
 
 ul.ftr_links {
     list-style-type: none;
-    margin: 35px auto auto auto;
+    margin: 40px auto auto auto;
 }
 
 .horiz {
@@ -104,5 +123,11 @@ ul.ftr_links {
     /*width: 100%;*/
     width: 40px;
     height: 40px;
+    border-radius: 5px;
     float: right;
+}
+
+.legal {
+    font-size: 12px;
+    text-align: center;
 }
