@@ -38,9 +38,18 @@ a.non_std {
     text-decoration-line: none;
 }
 
+a.non_std1 {
+    color: #000;
+    text-decoration-line: none;
+}
+
 a.non_std2 {
     color: #000;
     text-decoration-line: none;
+}
+
+a.non_std2:hover {
+    color: #f00;
 }
 
 #artc {
@@ -82,20 +91,16 @@ a.non_std2 {
     background: linear-gradient(to right top, #ffffff, #8e8888);
     z-index: 9;
     width: 56.666%;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
 }
 
 #box_I {
     background: linear-gradient(to right bottom, #8e8888, #ffffff);
     z-index: 9;
     width: 35%;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 #box_J {
-    height: 40px;
+    height: 50px;
     float: left;
     clear: left;
     margin-top: -32px;
