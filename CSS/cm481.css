@@ -1,3 +1,7 @@
+.grid {
+    min-width: 341px;
+}
+
 #hdr, #box_B {
     height: 120px;
 }
